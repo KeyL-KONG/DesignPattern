@@ -14,6 +14,7 @@
 		09F148122A19B7F300EC7680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F148112A19B7F300EC7680 /* Assets.xcassets */; };
 		09F148152A19B7F300EC7680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F148132A19B7F300EC7680 /* LaunchScreen.storyboard */; };
 		09F1481E2A19B85700EC7680 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1481D2A19B85700EC7680 /* Builder.swift */; };
+		2B7A4AF22A2AC786009C543C /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A4AF12A2AC786009C543C /* State.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		09F148142A19B7F300EC7680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09F148162A19B7F300EC7680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09F1481D2A19B85700EC7680 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		2B7A4AF12A2AC786009C543C /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		09F148072A19B7F200EC7680 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				2B7A4AF02A2AC77D009C543C /* State */,
 				09F1481C2A19B83B00EC7680 /* Builder */,
 				09F148082A19B7F200EC7680 /* AppDelegate.swift */,
 				09F1480A2A19B7F200EC7680 /* SceneDelegate.swift */,
@@ -76,6 +79,14 @@
 				09F1481D2A19B85700EC7680 /* Builder.swift */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		2B7A4AF02A2AC77D009C543C /* State */ = {
+			isa = PBXGroup;
+			children = (
+				2B7A4AF12A2AC786009C543C /* State.swift */,
+			);
+			path = State;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 				09F1480D2A19B7F200EC7680 /* ViewController.swift in Sources */,
 				09F148092A19B7F200EC7680 /* AppDelegate.swift in Sources */,
 				09F1480B2A19B7F200EC7680 /* SceneDelegate.swift in Sources */,
+				2B7A4AF22A2AC786009C543C /* State.swift in Sources */,
 				09F1481E2A19B85700EC7680 /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

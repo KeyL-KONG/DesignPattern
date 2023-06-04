@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         stateExample()
         multicastExample()
         facadeExample()
+        flyWeightExample()
     }
 
 

@@ -17,6 +17,7 @@
 		2B7A4AF22A2AC786009C543C /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A4AF12A2AC786009C543C /* State.swift */; };
 		2B7A4AF52A2B3155009C543C /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A4AF42A2B3155009C543C /* MulticastDelegate.swift */; };
 		2B7A4AF82A2C33FC009C543C /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A4AF72A2C33FC009C543C /* Facade.swift */; };
+		2B7A4B082A2C7A9C009C543C /* FlyWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A4B072A2C7A9C009C543C /* FlyWeight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2B7A4AF12A2AC786009C543C /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		2B7A4AF42A2B3155009C543C /* MulticastDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
 		2B7A4AF72A2C33FC009C543C /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		2B7A4B072A2C7A9C009C543C /* FlyWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWeight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		09F148072A19B7F200EC7680 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				2B7A4B062A2C7A86009C543C /* FlyWeight */,
 				2B7A4AF62A2C33DD009C543C /* Facade */,
 				2B7A4AF32A2B313D009C543C /* MulticastDelegate */,
 				2B7A4AF02A2AC77D009C543C /* State */,
@@ -109,6 +112,14 @@
 				2B7A4AF72A2C33FC009C543C /* Facade.swift */,
 			);
 			path = Facade;
+			sourceTree = "<group>";
+		};
+		2B7A4B062A2C7A86009C543C /* FlyWeight */ = {
+			isa = PBXGroup;
+			children = (
+				2B7A4B072A2C7A9C009C543C /* FlyWeight.swift */,
+			);
+			path = FlyWeight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 				09F1480B2A19B7F200EC7680 /* SceneDelegate.swift in Sources */,
 				2B7A4AF82A2C33FC009C543C /* Facade.swift in Sources */,
 				2B7A4AF22A2AC786009C543C /* State.swift in Sources */,
+				2B7A4B082A2C7A9C009C543C /* FlyWeight.swift in Sources */,
 				09F1481E2A19B85700EC7680 /* Builder.swift in Sources */,
 				2B7A4AF52A2B3155009C543C /* MulticastDelegate.swift in Sources */,
 			);

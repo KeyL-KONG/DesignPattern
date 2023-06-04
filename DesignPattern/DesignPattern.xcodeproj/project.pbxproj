@@ -16,6 +16,7 @@
 		09F1481E2A19B85700EC7680 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1481D2A19B85700EC7680 /* Builder.swift */; };
 		2B7A4AF22A2AC786009C543C /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A4AF12A2AC786009C543C /* State.swift */; };
 		2B7A4AF52A2B3155009C543C /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A4AF42A2B3155009C543C /* MulticastDelegate.swift */; };
+		2B7A4AF82A2C33FC009C543C /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A4AF72A2C33FC009C543C /* Facade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		09F1481D2A19B85700EC7680 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		2B7A4AF12A2AC786009C543C /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		2B7A4AF42A2B3155009C543C /* MulticastDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
+		2B7A4AF72A2C33FC009C543C /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		09F148072A19B7F200EC7680 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				2B7A4AF62A2C33DD009C543C /* Facade */,
 				2B7A4AF32A2B313D009C543C /* MulticastDelegate */,
 				2B7A4AF02A2AC77D009C543C /* State */,
 				09F1481C2A19B83B00EC7680 /* Builder */,
@@ -98,6 +101,14 @@
 				2B7A4AF42A2B3155009C543C /* MulticastDelegate.swift */,
 			);
 			path = MulticastDelegate;
+			sourceTree = "<group>";
+		};
+		2B7A4AF62A2C33DD009C543C /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				2B7A4AF72A2C33FC009C543C /* Facade.swift */,
+			);
+			path = Facade;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 				09F1480D2A19B7F200EC7680 /* ViewController.swift in Sources */,
 				09F148092A19B7F200EC7680 /* AppDelegate.swift in Sources */,
 				09F1480B2A19B7F200EC7680 /* SceneDelegate.swift in Sources */,
+				2B7A4AF82A2C33FC009C543C /* Facade.swift in Sources */,
 				2B7A4AF22A2AC786009C543C /* State.swift in Sources */,
 				09F1481E2A19B85700EC7680 /* Builder.swift in Sources */,
 				2B7A4AF52A2B3155009C543C /* MulticastDelegate.swift in Sources */,

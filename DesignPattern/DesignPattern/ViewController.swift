@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         facadeExample()
         flyWeightExample()
         mediatorExample()
+        compositeExample()
     }
 
 

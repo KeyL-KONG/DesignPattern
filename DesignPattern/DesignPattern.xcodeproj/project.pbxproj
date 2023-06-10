@@ -20,6 +20,7 @@
 		2B7A4B082A2C7A9C009C543C /* FlyWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A4B072A2C7A9C009C543C /* FlyWeight.swift */; };
 		2B7A4B0B2A2C8A4D009C543C /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A4B0A2A2C8A4D009C543C /* Mediator.swift */; };
 		2B7A4B0E2A2D6757009C543C /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A4B0D2A2D6757009C543C /* Composite.swift */; };
+		2BBC58F62A32D85100C4F66E /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBC58F52A32D85100C4F66E /* Chain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		2B7A4B072A2C7A9C009C543C /* FlyWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWeight.swift; sourceTree = "<group>"; };
 		2B7A4B0A2A2C8A4D009C543C /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
 		2B7A4B0D2A2D6757009C543C /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		2BBC58F52A32D85100C4F66E /* Chain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		09F148072A19B7F200EC7680 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				2BBC58F42A32D84600C4F66E /* Chain */,
 				2B7A4B0C2A2D6749009C543C /* Composite */,
 				2B7A4B092A2C8A38009C543C /* Mediator */,
 				2B7A4B062A2C7A86009C543C /* FlyWeight */,
@@ -142,6 +145,14 @@
 				2B7A4B0D2A2D6757009C543C /* Composite.swift */,
 			);
 			path = Composite;
+			sourceTree = "<group>";
+		};
+		2BBC58F42A32D84600C4F66E /* Chain */ = {
+			isa = PBXGroup;
+			children = (
+				2BBC58F52A32D85100C4F66E /* Chain.swift */,
+			);
+			path = Chain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +229,7 @@
 				2B7A4B0B2A2C8A4D009C543C /* Mediator.swift in Sources */,
 				09F1480D2A19B7F200EC7680 /* ViewController.swift in Sources */,
 				09F148092A19B7F200EC7680 /* AppDelegate.swift in Sources */,
+				2BBC58F62A32D85100C4F66E /* Chain.swift in Sources */,
 				09F1480B2A19B7F200EC7680 /* SceneDelegate.swift in Sources */,
 				2B7A4AF82A2C33FC009C543C /* Facade.swift in Sources */,
 				2B7A4B0E2A2D6757009C543C /* Composite.swift in Sources */,

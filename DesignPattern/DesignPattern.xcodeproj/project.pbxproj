@@ -23,6 +23,10 @@
 		2B7A4B0B2A2C8A4D009C543C /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A4B0A2A2C8A4D009C543C /* Mediator.swift */; };
 		2B7A4B0E2A2D6757009C543C /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A4B0D2A2D6757009C543C /* Composite.swift */; };
 		2BBC58F62A32D85100C4F66E /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBC58F52A32D85100C4F66E /* Chain.swift */; };
+		2BBC58F92A3511B900C4F66E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBC58F82A3511B900C4F66E /* Coordinator.swift */; };
+		2BBC58FE2A356BF000C4F66E /* StartOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBC58FB2A356BF000C4F66E /* StartOverViewController.swift */; };
+		2BBC58FF2A356BF000C4F66E /* StepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBC58FC2A356BF000C4F66E /* StepViewController.swift */; };
+		2BBC59002A356BF000C4F66E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBC58FD2A356BF000C4F66E /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		2B7A4B0A2A2C8A4D009C543C /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
 		2B7A4B0D2A2D6757009C543C /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 		2BBC58F52A32D85100C4F66E /* Chain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
+		2BBC58F82A3511B900C4F66E /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		2BBC58FB2A356BF000C4F66E /* StartOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartOverViewController.swift; sourceTree = "<group>"; };
+		2BBC58FC2A356BF000C4F66E /* StepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepViewController.swift; sourceTree = "<group>"; };
+		2BBC58FD2A356BF000C4F66E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,7 @@
 		09F148072A19B7F200EC7680 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				2BBC58F72A35119F00C4F66E /* Coordinator */,
 				2BBC58F42A32D84600C4F66E /* Chain */,
 				09BB8BAC2A21983800474CED /* Adapter */,
 				09BB8BA92A21887600474CED /* Factory */,
@@ -177,6 +186,17 @@
 			path = Chain;
 			sourceTree = "<group>";
 		};
+		2BBC58F72A35119F00C4F66E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2BBC58FB2A356BF000C4F66E /* StartOverViewController.swift */,
+				2BBC58FC2A356BF000C4F66E /* StepViewController.swift */,
+				2BBC58FD2A356BF000C4F66E /* HomeViewController.swift */,
+				2BBC58F82A3511B900C4F66E /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -251,15 +271,19 @@
 				2B7A4B0B2A2C8A4D009C543C /* Mediator.swift in Sources */,
 				09F1480D2A19B7F200EC7680 /* ViewController.swift in Sources */,
 				09BB8BAE2A21984300474CED /* Adapter.swift in Sources */,
+				2BBC59002A356BF000C4F66E /* HomeViewController.swift in Sources */,
 				09F148092A19B7F200EC7680 /* AppDelegate.swift in Sources */,
 				2BBC58F62A32D85100C4F66E /* Chain.swift in Sources */,
 				09F1480B2A19B7F200EC7680 /* SceneDelegate.swift in Sources */,
+				2BBC58F92A3511B900C4F66E /* Coordinator.swift in Sources */,
 				2B7A4AF82A2C33FC009C543C /* Facade.swift in Sources */,
 				2B7A4B0E2A2D6757009C543C /* Composite.swift in Sources */,
 				2B7A4AF22A2AC786009C543C /* State.swift in Sources */,
 				2B7A4B082A2C7A9C009C543C /* FlyWeight.swift in Sources */,
+				2BBC58FE2A356BF000C4F66E /* StartOverViewController.swift in Sources */,
 				09F1481E2A19B85700EC7680 /* Builder.swift in Sources */,
 				09BB8BAB2A21888A00474CED /* Factory.swift in Sources */,
+				2BBC58FF2A356BF000C4F66E /* StepViewController.swift in Sources */,
 				2B7A4AF52A2B3155009C543C /* MulticastDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

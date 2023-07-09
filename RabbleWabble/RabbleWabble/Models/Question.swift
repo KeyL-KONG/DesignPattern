@@ -26,8 +26,14 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-public struct Question {
+public struct Question: Codable {
   public let answer: String
   public let hint: String?
   public let prompt: String
+  
+  init(answer: String, hint: String?, prompt: String) {
+    self.answer = answer
+    self.hint = hint
+    self.prompt = prompt
+  }
 }

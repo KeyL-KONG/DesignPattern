@@ -40,6 +40,7 @@ public class SelectQuestionGroupViewController: UIViewController {
   // MARK: - Properties
   public let questionGroups = QuestionGroup.allGroups()
   private var selectedQuestionGroup: QuestionGroup!
+  private let appSettings = AppSettings.shared
 }
 
 // MARK: - UITableViewDataSource
@@ -82,7 +83,7 @@ extension SelectQuestionGroupViewController: UITableViewDelegate {
     guard let viewController = segue.destination
       as? QuestionViewController else { return }
     viewController.questionGroup = selectedQuestionGroup
-    viewController.questionStrategy = RandomQuestionStrategy(questionGroup: selectedQuestionGroup)
+    viewController.questionStrategy = appSettings.questionStrategy(for: selectedQuestionGroup)
     viewController.delegate = self
   }
 }
